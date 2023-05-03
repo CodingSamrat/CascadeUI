@@ -1,0 +1,14 @@
+
+$color-light: #e0e0e0 ;
+$color-dark: #1e1e1e ;
+
+$color-primary: #001d3d ;
+$color-secondery: #003566 ;
+$color-cta: #eeda43 ;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var($color-dark);
+}

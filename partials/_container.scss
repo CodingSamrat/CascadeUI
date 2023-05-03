@@ -1,0 +1,31 @@
+/* Container */
+
+@mixin common{
+    background: #bbbbbb;
+    height: 2rem;
+
+    padding: .3rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+~
+.container-full{
+    @include common();
+    width: 100%;
+}
+
+.container{
+    @include common();
+    width: 75%;
+}
+
+.container-mid{
+    @include common();
+    width: 60%;
+}
+
+.container-sm{
+    @include common();
+    width: 50%;
+}
