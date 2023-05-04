@@ -1,7 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  color: var(#1e1e1e);
+  color: #1e1e1e;
+}
+
+.b-shadow-0 {
+  box-shadow: 0px 0px !important;
+}
+
+.radius-0 {
+  border-radius: 0px !important;
 }
 
 .m-1 {
@@ -304,8 +312,6 @@
 
 /* Container */
 .container-full {
-  background: #bbbbbb;
-  height: 2rem;
   padding: 0.3rem;
   margin-right: auto;
   margin-left: auto;
@@ -313,8 +319,6 @@
 }
 
 .container {
-  background: #bbbbbb;
-  height: 2rem;
   padding: 0.3rem;
   margin-right: auto;
   margin-left: auto;
@@ -322,8 +326,6 @@
 }
 
 .container-mid {
-  background: #bbbbbb;
-  height: 2rem;
   padding: 0.3rem;
   margin-right: auto;
   margin-left: auto;
@@ -331,10 +333,136 @@
 }
 
 .container-sm {
-  background: #bbbbbb;
-  height: 2rem;
   padding: 0.3rem;
   margin-right: auto;
   margin-left: auto;
   width: 50%;
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+  font-size: 1rem;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-sm {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.7rem;
+}
+
+.btn-light {
+  background-color: #e0e0e0;
+  color: #1e1e1e;
+}
+
+.btn-dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.btn-primary {
+  background-color: #1f6feb;
+  color: #e0e0e0;
+}
+
+.btn-secondary {
+  background-color: #fae318;
+  color: #1e1e1e;
+}
+
+.btn-success {
+  background-color: #4BB543;
+  color: #e0e0e0;
+}
+
+.btn-error {
+  background-color: #ff3333;
+  color: #e0e0e0;
+}
+
+.btn-info {
+  background-color: #00f2ff;
+  color: #e0e0e0;
+}
+
+.btn-info {
+  background-color: #00f2ff;
+  color: #1e1e1e;
+}
+
+.btn-cta {
+  background-color: #f85149;
+  color: #1e1e1e;
+}
+
+.color-light {
+  color: #e0e0e0;
+}
+
+.color-dark {
+  color: #1e1e1e;
+}
+
+.color-primary {
+  color: #1f6feb;
+}
+
+.color-secondary {
+  color: #fae318;
+}
+
+.color-success {
+  color: #4BB543;
+}
+
+.color-error {
+  color: #ff3333;
+}
+
+.color-info {
+  color: #00f2ff;
+}
+
+.color-cta {
+  color: #f85149;
+}
+
+.bg-light {
+  background-color: #e0e0e0;
+}
+
+.bg-dark {
+  background-color: #1e1e1e;
+}
+
+.bg-primary {
+  background-color: #1f6feb;
+}
+
+.bg-secondary {
+  background-color: #fae318;
+}
+
+.bg-success {
+  background-color: #4BB543;
+}
+
+.bg-error {
+  background-color: #ff3333;
+}
+
+.bg-info {
+  background-color: #00f2ff;
+}
+
+.bg-cta {
+  background-color: #f85149;
 }/*# sourceMappingURL=cascadeui.main.css.map */

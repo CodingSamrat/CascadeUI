@@ -1,0 +1,124 @@
+:root{
+    --color-light: #e0e0e0 ;
+    --color-dark: #1e1e1e ;
+
+    --color-success: #4BB543;
+    --color-error: #ff3333;
+    --color-info: #00f2ff;
+
+    --color-primary: #1f6feb ;
+    --color-secondery: #fae318 ;
+    --color-cta: #f85149 ;
+}
+
+
+
+/* Text Colors */
+.color-light{color: var(color-light);}
+
+.color-dark{color: var(color-dark);}
+
+.color-primary{color: var(color-primary);}
+
+.color-secondary{color: var(color-secondery);}
+
+.color-success{color: var(color-success);}
+
+.color-error{color: var(color-error);}
+
+.color-info{color: var(color-info);}
+
+.color-cta{color: var(color-cta);}
+
+
+/*  BACKGROUND COLOR */
+.bg-light{background-color: var(color-light);}
+
+.bg-dark{background-color: var(color-dark);}
+
+.bg-primary{background-color: var(color-primary);}
+
+.bg-secondary{background-color: var(color-secondery);}
+
+.bg-success{background-color: var(color-success);}
+
+.bg-error{background-color: var(color-error);}
+
+.bg-info{background-color: var(color-info);}
+
+.bg-cta{background-color: var(color-cta);}
+
+
+
+/* Buttons */
+.btn{
+    border: 0;
+    outline: 0;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .30);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+
+
+.btn-light{
+    background-color: var(color-light);
+    color: var(color-dark);
+}
+
+.btn-dark{
+    background-color: var(color-dark);
+    color: var(color-light);
+}
+
+.btn-primary{
+    background-color: var(color-primary);
+    color: var(color-light);
+}
+
+.btn-secondary{
+    background-color: var(color-secondery);
+    color: var(color-dark);
+}
+
+.btn-success{
+    background-color: var(color-success);
+    color: var(color-light);
+}
+
+.btn-error{
+    background-color: var(color-error);
+    color: var(color-light);
+}
+
+.btn-info{
+    background-color: var(color-info);
+    color: var(color-light);
+}
+
+.btn-info{
+    background-color: var(color-info);
+    color: var(color-dark);
+}
+.btn-cta{
+    background-color: var(color-cta);
+    color: var(color-dark);
+}
+
+
+/* Container */
+
+  .container-mid {
+    width: 60%;
+  }
+  
+  .container-sm {
+    width: 50%;
+  }
